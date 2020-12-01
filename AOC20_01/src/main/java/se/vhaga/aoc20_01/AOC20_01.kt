@@ -1,7 +1,6 @@
 package se.vhaga.aoc20_01
 
-import java.io.File
-import java.nio.file.Paths
+import se.vhaga.aoc20_util.FileUtil
 
 fun main(args: Array<String>) {
     AOC20_01.run()
@@ -10,9 +9,7 @@ fun main(args: Array<String>) {
 object AOC20_01 : Runnable {
 
     private val input by lazy {
-        val assetsDir = Paths.get("").toAbsolutePath().toString() + "/AOC20_01/src/main/assets"
-        val inputFile = File(assetsDir, "input.txt")
-
+        val inputFile = FileUtil.readFile("/AOC20_01/src/main/assets", "input.txt")
         inputFile.readLines().mapNotNull { it.toIntOrNull() }
     }
 

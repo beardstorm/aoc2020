@@ -4,6 +4,5 @@ plugins {
 }
 
 dependencies {
-    implementation project(":AOC20_util")
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 }
