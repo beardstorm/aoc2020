@@ -3,6 +3,7 @@
 /captures
 /gradle
 /local.properties
+*/build
 *.iml
 .cxx
 .DS_Store
