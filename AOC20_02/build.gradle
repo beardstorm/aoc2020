@@ -1,0 +1,9 @@
+plugins {
+    id 'java-library'
+    id 'kotlin'
+}
+
+dependencies {
+    implementation project(":AOC20_util")
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+}

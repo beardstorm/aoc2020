@@ -1,3 +1,4 @@
+include ':AOC20_02'
 include ':AOC20_util'
 include ':AOC20_01'
 rootProject.name = "Advent of Code 2020"
