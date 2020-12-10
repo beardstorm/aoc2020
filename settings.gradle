@@ -1,3 +1,4 @@
+include ':AOC20_05'
 include ':AOC20_04'
 include ':AOC20_03'
 include ':AOC20_02'
